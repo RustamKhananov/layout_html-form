@@ -1,11 +1,13 @@
 
 .blockOfForm {
   border: 1px solid black;
-  margin: 20px 0;
-  padding: 10px;
+  margin-bottom: 20px;
 }
 
 .formLine {
-  margin: 5px 0;
+  margin-bottom: 10px;
+}
 
+label {
+  display: block;
 }

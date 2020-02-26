@@ -17,85 +17,69 @@
     <fieldset class="blockOfForm">
       <legend>Personal information</legend>
       <label>
-        &nbsp;&nbsp;Surname:<input class="formLine" id="Surname" type="text" name="Surname" autocomplete="off">
-        <br>
+        Surname:&nbsp;<input class="formLine" id="Surname" type="text" name="Surname" autocomplete="off">
       </label>
       <label>
-        &nbsp;&nbsp;Name:<input class="formLine" id="Name" type="text" name="Name" autocomplete="off">
-        <br>
+        Name:&nbsp;<input class="formLine" id="Name" type="text" name="Name" autocomplete="off">
       </label>
       <label>
-        &nbsp;&nbsp;How old are you?<input class="formLine" min="1" max="120" id="age" type="number" value="12"
-          name="age">
-        <br>
+        How old are You?&nbsp;<input class="formLine" min="1" max="120" id="age" type="number" value="12" name="age">
       </label>
       <label>
-        &nbsp;&nbsp;Full date of birth:<input class="formLine" id="dateOfBirth" type="date" name="dateOfBirth">
-        <br>
+        Full date of birth:&nbsp;<input class="formLine" id="dateOfBirth" type="date" name="dateOfBirth">
       </label>
       <label>
-        &nbsp;&nbsp;I accept the term of the agreement<input class="formLine" id="termsAccept" type="checkbox"
-          name="termsAccept">
+        I accept the term of the agreement&nbsp;<input id="termsAccept" type="checkbox" name="termsAccept">
       </label>
     </fieldset>
     <fieldset class="blockOfForm">
       <legend>Registration</legend>
       <label>
-        &nbsp;&nbsp;E-mail:<input class="formLine" required type="email" id="users-email" value="email@example.com"
+        E-mail:&nbsp;<input class="formLine" required type="email" id="users-email" value="email@example.com"
           name="users-email">
-        <br>
       </label>
       <label>
-        &nbsp;&nbsp;Password:<input class="formLine" minlength="8" maxlength="30" type="password" id="users-password"
-          name="users-password">
-        <br>
+        Password:&nbsp;<input minlength="8" maxlength="30" type="password" id="users-password" name="users-password">
       </label>
     </fieldset>
     <fieldset class="blockOfForm">
       <legend>An interesting fact about you!</legend>
       <div class="formLine">
-        &nbsp;&nbsp;Do you love cats?
+        Do you love cats?&nbsp;
         <label><input type="radio" id="yes" name="loveCats">Yes</label>
         <label><input type="radio" id="no" name="loveCats">No</label>
       </div>
       <label>
-        &nbsp;&nbsp;What is your favorite color?<input class="formLine" type="color" id="favColor" name="favColor">
+        What is your favorite color?&nbsp;<input class="formLine" type="color" id="favColor" name="favColor">
       </label>
-      <br>
       <label>
-        &nbsp;&nbsp;What time do you go to bed?<input class="formLine" type="time" id="timeToBed" name="timeToBed">
+        What time do you go to bed?&nbsp;<input class="formLine" type="time" id="timeToBed" name="timeToBed">
       </label>
-      <br>
       <label>
-        &nbsp;&nbsp;What are your favorite brand of cars?
-        &nbsp;&nbsp;<select class="formLine" name="cars" id="cars" multiple="multiple">
-          <option value="Lada">Lada</option>
-          <option value="BMW">BMW</option>
-          <option value="Audi">Audi</option>
+        What are your favorite brand of cars?
+        <select class="formLine" name="cars" id="cars" multiple="multiple">
+          <option value="Lada">BMW</option>
+          <option value="BMW">Audi</option>
+          <option value="Audi">Lada</option>
           <option value=" "></option>
         </select>
       </label>
-      <br>
-      &nbsp;&nbsp;How do you rate our work?<input class="formLine" type="range" id="workRate" name="workRate">
-      <br>
+      How do you rate our work?&nbsp;<input value="50%" type="range" id="workRate" name="workRate">
     </fieldset>
     <fieldset class="blockOfForm">
       <legend>Additional info:</legend>
       <div class="formLine">
         <label>
-          &nbsp;&nbsp;Comments:<textarea name="comment" id="comment"></textarea>
-        </label>
-        <br>
-      </div>
-      <div class="formLine">
-        <label>
-          &nbsp;&nbsp;Would you recommend us?
-          <select id="recommend" multiple="multiple" size="1">
-            <option value="yes">yes</option>
-            <option value="no">no</option>
-          </select>
+          Comments:&nbsp;<textarea name="comment" id="comment"></textarea>
         </label>
       </div>
+      <label>
+        Would you recommend us?&nbsp;
+        <select id="recommend" multiple="multiple" size="1">
+          <option value="yes">yes</option>
+          <option value="no">no</option>
+        </select>
+      </label>
     </fieldset>
     <input type="submit" value="Submit">
   </form>
