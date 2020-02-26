@@ -11,3 +11,7 @@
 label {
   display: block;
 }
+
+.inLine {
+  display: inline;
+}
